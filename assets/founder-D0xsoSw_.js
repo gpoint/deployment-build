@@ -1,0 +1,1 @@
+import{x as a}from"./index-CHYT90Sk.js";async function s(){const{data:t}=await a.get("/founder/organizations");return t}async function e(){const{data:t}=await a.get("/founder/stats");return t}async function r(){try{const{data:t}=await a.get("/investor/stats");return t}catch{return{total_matches:0,matches_this_week:0,super_likes_sent:0}}}export{s as a,r as b,e as g};
